@@ -1,4 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+    images:{
+        domains:[
+            "oalidalleapiprodscus.blob.core.windows.net",
+        ]
+    }
+}
 
 module.exports = nextConfig
